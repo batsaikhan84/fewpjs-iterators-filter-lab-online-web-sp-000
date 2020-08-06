@@ -1,3 +1,3 @@
 function findMatching(drivers, name) {
-  drivers.filter(e => e === name)
+  return drivers.filter(e => e === name)
 }
