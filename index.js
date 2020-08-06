@@ -7,8 +7,5 @@ function fuzzyMatch(drivers, letter) {
 }
 
 function matchName(drivers, name) {
-  return drivers.filter(e => {
-    let l = name.length
-    
-  })
+  return drivers.filter(e => e.name == name)
 }
